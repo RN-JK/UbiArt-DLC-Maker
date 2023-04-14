@@ -65,6 +65,8 @@ class UbiArt:
         return data
     
 import os, shutil, json, struct
+print('''UbiArt DLC Maker
+by: JackLSummer15 & RyanL181095''')
 cwd=os.getcwd()
 setting=json.load(open('input.json'))
 if setting['gameVersion']==2014: #jd2014's version is set a 5 so change it if anyone set it as 2014.
